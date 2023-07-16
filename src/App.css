@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+}
+.container{
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  'header header header header header header'
+  'aside main main main main main'
+  'footer footer footer footer footer footer'
+  ;
+}
+.header{
+  grid-area: header;
+}
+.aside{
+  grid-area: aside;
+}
+.main{
+  grid-area: main;
+}
+.footer{
+  padding: 10px;
+  grid-area: footer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Card css */
+
+.card-container {
+  background-color: #fff;
+  width: 22%;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0rem 0rem 8rem;
+  border: 1px solid rgb(223, 223, 223);
+  display: inline-block;
+}
+.card-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+.card-title {
+  color: black;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+.card-description {
+  color: black;
+  opacity: 0.6;
+}
+.card-price {
+  font-size: 1.3rem;
+  color: black;
+  padding: 0.5rem 0rem  ;
+}
+.card-btns{
+  margin-top: 0.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-buy {
+  background-color: lightskyblue;
+  padding: 0.3rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 9px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-cart {
+    padding: 0.3rem ;
+    color: black;
 }
-
-.App-link {
-  color: #61dafb;
+hr.hr {
+  border-top: 1px solid rgb(0, 0, 0);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-container{
+  margin-top: 9rem;
 }

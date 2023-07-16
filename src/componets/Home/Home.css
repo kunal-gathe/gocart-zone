@@ -1,0 +1,53 @@
+.home-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.web-info {
+  margin: 2rem;
+}
+.wellcome-text {
+  font-weight: 300;
+  font-size: 0.6rem;
+}
+.logo-heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.description {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+.shop-btn {
+  padding: 0.5rem 0.5rem;
+  font-size: 0.5rem;
+  background-color: #1f93f1;
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
+  color: white;
+}
+.home-image {
+  margin: 6rem 0rem 0rem 2rem;
+}
+.shoping-img {
+  width: 7rem;
+  height: auto;
+}
+.box-1 {
+  z-index: -1;
+  width: 6rem;
+  background-color: #2e7df3;
+  height: 5rem;
+  position: absolute;
+  top: 10rem;
+  right: 1rem;
+  opacity: 0.9;
+}
+
+@media only screen and (min-width: 992px) {
+  .logo {
+    background-color: red;
+  }
+  .nav-link{
+    display: inline-block;
+  }
+}

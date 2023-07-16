@@ -1,0 +1,77 @@
+.cart-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 2rem 0rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+hr {
+  border: 1px solid rgb(22, 162, 217);
+}
+.cart-item-container {
+  display: flex;
+  margin: 2rem 2rem;
+}
+.cart-item-img {
+  width: 2rem;
+  height: 3rem;
+}
+.cart-item-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0rem 3rem;
+}
+.cart-item-price {
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin: 0rem 0rem;
+}
+.cart-item-delete {
+  color: red;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 3rem;
+  margin-top: 0rem;
+}
+.cart-btns {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Continue-Shopping {
+  margin-top: 0.5rem;
+  background-color: #1061b7;
+  padding: 0.5rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  font-size: 0.5rem;
+}
+.Clear-cart {
+  font-size: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #ff0a0a;
+  padding: 0.5rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.payment-box {
+  background-color: #efeaea;
+    width: 22rem;
+    margin: 1rem auto;
+    padding: 1rem 1rem;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.subtotal,
+.shipping-fee,
+.order-total {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.2rem 1rem;
+}

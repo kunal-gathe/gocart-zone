@@ -1,0 +1,35 @@
+.single-product-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2rem 2rem;
+}
+.s-image {
+  width: 7rem;
+  border-radius: 1rem;
+}
+.s-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem 0rem;
+}
+.s-price {
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(31, 149, 216);
+}
+.s-description {
+  font-size: 0.8rem;
+  margin: 1rem 0rem;
+}
+hr.new4 {
+  border: 1px solid rgb(0, 0, 0);
+}
+.s-btn {
+  margin: 1rem 0rem;
+  padding: 0.5rem;
+  background-color: #3085e7;
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: #fff;
+  border-radius: 5px;
+}
